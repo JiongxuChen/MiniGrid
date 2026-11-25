@@ -1,0 +1,23 @@
+{
+  "train_seed": 0,
+  "env_id": "MiniGrid-DoorKey-8x8-v0",
+  "split": "test",
+  "checkpoint_step": 950000,
+  "episodes": 100,
+  "successes": 61,
+  "success_rate": 0.61,
+  "mean_return": 0.595290625,
+  "median_success_steps": 17,
+  "success_wilson_low": 0.5120301704584073,
+  "success_wilson_high": 0.6998312599360558,
+  "eval_environment_steps": 26006,
+  "wall_seconds": 25.31210284586996,
+  "policy_sha256": "3614201691a6efa5c971a67638facd20a4c81f4c801de253c68580eddfefbcea",
+  "model_selection": "best_validation",
+  "baseline_version": "baseline_v1",
+  "diagnostic": false,
+  "training_budget": 1000000,
+  "last_update_step": 948224,
+  "selection_manifest_sha256": "910980d1102cf4dec07f830839c85fbba896ef82b999f652b532641869422bd9",
+  "model_file_sha256": "4925d6b9e1c0c452063a4eefc3a356cda76f309867f4d908e513820104a2ae32"
+}

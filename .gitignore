@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+runs/
+.env
+.DS_Store
+reports/
+
+# Only the three final and three validation-selected best weights are published.
+*.zip
+!/results/seed_0/final_model.zip
+!/results/seed_0/checkpoints/step_000950000.zip
+!/results/seed_1/final_model.zip
+!/results/seed_1/checkpoints/step_000750000.zip
+!/results/seed_2/final_model.zip
+!/results/seed_2/checkpoints/step_000850000.zip

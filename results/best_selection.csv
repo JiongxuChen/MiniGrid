@@ -1,0 +1,4 @@
+baseline_version,train_seed,training_budget,checkpoint_step,last_update_step,best_validation_success_rate,best_validation_mean_return,final_validation_success_rate,final_validation_mean_return,model_path,model_file_sha256
+baseline_v1,0,1000000,950000,948224,0.94,0.9102,0.89,0.861475,results/seed_0/checkpoints/step_000950000.zip,4925d6b9e1c0c452063a4eefc3a356cda76f309867f4d908e513820104a2ae32
+baseline_v1,1,1000000,750000,749568,0.97,0.939475,0.97,0.939175,results/seed_1/checkpoints/step_000750000.zip,2f11988eef65718af3c6f9b084a4781d492092c4fb141d10eaa95efbe9130dd5
+baseline_v1,2,1000000,850000,849920,0.99,0.9584,0.95,0.91985,results/seed_2/checkpoints/step_000850000.zip,6552ce77c58865a324605365610f8057dd58f44b410a07050e9bdcb54f73d3cd

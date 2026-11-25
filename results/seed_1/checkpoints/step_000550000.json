@@ -1,0 +1,8 @@
+{
+  "checkpoint_step": 550000,
+  "last_update_step": 548864,
+  "after_final_update": false,
+  "resumable_exactly": false,
+  "model_file_sha256": "1654bd9bc08cc572a9601a0de5608d03c2062217115d81e0c59a5ad173acb441",
+  "policy_sha256": "a3aa0a6d78b99821492c3ab5c4f60f8dc70cb8751c1fdc8743cc707a96c991f4"
+}

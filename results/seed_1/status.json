@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "smoke": false,
+  "training_steps": 1000000,
+  "last_update_step": 1000000
+}

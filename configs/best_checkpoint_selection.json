@@ -1,0 +1,16 @@
+{
+  "name": "validation_success_return_earliest_v1",
+  "selection_environment": "MiniGrid-DoorKey-6x6-v0",
+  "selection_split": "validation",
+  "include_step_zero": false,
+  "ranking": [
+    "success_rate_descending",
+    "mean_original_return_descending",
+    "checkpoint_step_ascending"
+  ],
+  "test_environments": ["MiniGrid-DoorKey-6x6-v0", "MiniGrid-DoorKey-8x8-v0"],
+  "test_episodes_per_environment": 100,
+  "deterministic": true,
+  "role": "supplementary_only_final_policy_remains_primary"
+}
+

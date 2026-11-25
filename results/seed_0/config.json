@@ -1,0 +1,40 @@
+{
+  "experiment": "baseline",
+  "env_id": "MiniGrid-DoorKey-6x6-v0",
+  "train_seeds": [
+    0,
+    1,
+    2
+  ],
+  "total_steps": 1000000,
+  "n_envs": 1,
+  "eval_freq": 50000,
+  "eval_episodes": 100,
+  "episode_seeds": "configs/eval_episode_seeds.json",
+  "output_root": "runs",
+  "deterministic_eval": true,
+  "policy": {
+    "features_dim": 128,
+    "normalize_images": false
+  },
+  "ppo": {
+    "learning_rate": 0.0003,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_range": 0.2,
+    "clip_range_vf": null,
+    "normalize_advantage": true,
+    "ent_coef": 0.0,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "use_sde": false,
+    "sde_sample_freq": -1,
+    "target_kl": null,
+    "stats_window_size": 100
+  },
+  "train_seed": 0,
+  "smoke": false
+}
